@@ -1,0 +1,31 @@
+/* h1{
+    white-space: nowrap;
+} */
+/* ::selection {
+    color: red;
+    background: yellow;
+  } */
+   /* .w-600{
+    max-width: 37.5rem;
+   }
+   .h-600{
+    max-height: 37.5rem;
+   } */
+.card{
+    overflow: hidden;
+    border: 2px solid transparent !important;
+    transition: all 0.4s ;
+}
+.card:hover{
+    border: 2px solid #c2dbfe !important;
+
+}
+.card .card-img{
+    transition: all 0.4s;
+}
+.card .card-img:hover{
+transform: scale(1.1);
+}
+button{
+    font-size: .75rem !important;
+}
