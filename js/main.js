@@ -216,7 +216,7 @@ function validateProductCategory() {
 }
 
 function validateProductDescription() {
-  var regex = /^[a-zA-Z]{1,200}$/;
+  var regex = /^[a-zA-Z ]{1,200}$/;
   var descriptionError = document.getElementById("descriptionError");
   if (productDescription.value == "") {
     descriptionError.classList.add("d-none");
